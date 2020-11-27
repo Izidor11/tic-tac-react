@@ -6,9 +6,9 @@ function Square(props){
       return (
         <button
           className="square"
-          onClick={() => this.props.onClick()}
+          onClick={props.onClick}
         >
-          {this.props.value}
+          {props.value}
         </button>
       );
   }
@@ -22,6 +22,10 @@ function Square(props){
       }
 
         handleClick(i) {
+        /*In the tutorial this squareFill is simply square
+         *and we already know how the slice method works on arrays
+         *but for better readability I have renamed this to squareFill   
+        */
         const squareFill = this.state.squares.slice();
         squareFill[i] = 'X';
         this.setState({squares: squareFill});
