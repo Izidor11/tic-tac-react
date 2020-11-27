@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+# PRACTICE MAKES PERFECT
+# REACT TIC-TAC-TOE TUTORIAL
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
